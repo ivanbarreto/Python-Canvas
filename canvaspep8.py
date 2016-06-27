@@ -78,8 +78,7 @@ def max(a, b):
 
 def main():
     object_exists = False
-    loop_break = False
-    while not loop_break:
+    while True:
         buffer_string = raw_input()
         user_string = buffer_string.split()
         if user_string[0] == 'I' and len(user_string) >= 3:
